@@ -1,0 +1,10 @@
+q0,a,q1,X,D;q0,b,q3,Y,D;q0,$,q7,$,D;q1,a,q1,a,D;q1,b,q1,b,D;q1,$,q2,$,D;q2,a,q5,X,I;q2,X,q2,X,D;q2,Y,q2,Y,D;q3,a,q3,a,D;q3,b,q3,b,D;q3,$,q4,$,D;q4,b,q5,Y,I;q4,X,q4,X,D;q4,Y,q4,Y,D;q5,$,q6,$,I;q5,X,q5,X,I;q5,Y,q5,Y,I;q6,a,q6,a,I;q6,b,q6,b,I;q6,X,q0,X,D;q6,Y,q0,Y,D;q7,X,q7,X,D;q7,Y,q7,Y,D;q7,B,qf,B,D
+q0 - qf
+Palindromos
+EJ: aaaaabaaaaa
+EJ: bbbbabbbb
+
+q0,a,q1,X,D;q1,a,q1,a,D;q2,a,q2,a,I;q1,b,q2,Y,I;q2,X,q0,X,D;q0,Y,q3,Y,D;q1,Y,q1,Y,D;q2,Y,q2,Y,I;q3,Y,q3,Y,D;q3,B,q4,B,D
+q0 - q4
+
+L=(a^n b^n)
